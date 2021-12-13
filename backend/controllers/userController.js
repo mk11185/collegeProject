@@ -131,3 +131,11 @@ exports.resetPassword = catchAsyncErrors(async (req, res, next) => {
   sendToken(user,200,res);
 
 })
+
+
+// get user details
+exports.getUserDetails = catchAsyncErrors(async(req,res,next)=>{
+
+  const user = await User.findById(req.user.id);
+  
+})
