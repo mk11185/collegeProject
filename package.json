@@ -1,0 +1,32 @@
+{
+  "name": "collegeproject",
+  "version": "1.0.0",
+  "description": "online shopping site",
+  "main": "backend/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk11185/collegeProject.git"
+  },
+  "author": "Mukul Kashyap",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mk11185/collegeProject/issues"
+  },
+  "homepage": "https://github.com/mk11185/collegeProject#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.1",
+    "nodemailer": "^6.7.2",
+    "validator": "^13.7.0"
+  }
+}
